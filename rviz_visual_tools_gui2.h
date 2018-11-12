@@ -58,11 +58,11 @@ class QSpinBox;
 
 namespace rviz_visual_tools
 {
-class RvizVisualToolsGui : public rviz::Panel
+class RvizVisualToolsGui2 : public rviz::Panel
 {
   Q_OBJECT
 public:
-  explicit RvizVisualToolsGui(QWidget* parent = 0);
+  explicit RvizVisualToolsGui2(QWidget* parent = 0);
 
   // virtual void load(const rviz::Config& config);
   // virtual void save(rviz::Config config) const;

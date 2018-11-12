@@ -55,7 +55,7 @@
 
 namespace rviz_visual_tools
 {
-RvizVisualToolsGui::RvizVisualToolsGui2(QWidget* parent) : rviz::Panel(parent)
+RvizVisualToolsGui2::RvizVisualToolsGui2(QWidget* parent) : rviz::Panel(parent)
 {
   // Create a push button
   btn_simclose_ = new QPushButton(this);
